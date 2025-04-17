@@ -1,10 +1,10 @@
 import React from "react";
-import Calculator from "./components/Calculator";
-import "./App.css";
+import Calculator from "../components/Calculator";
+import "../App.css";
 
 const App = () => {
   return (
-    <div>
+    <div className="calculator-container">
       <h1>2022112041 방윤지</h1>
       <Calculator />
     </div>

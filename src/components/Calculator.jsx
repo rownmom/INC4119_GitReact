@@ -7,7 +7,7 @@ const Calculator = () => {
     const { input, result, handleClick, calculateResult, clearInput } = useCalculatorLogic();
 
     return (
-        <div className = "calculator">
+        <div className="calculator-form">
             {}
             <Display input = {input} result = {result} />
 

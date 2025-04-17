@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
+import CalculatePage from "./pages/CalculatePage";
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
 
@@ -34,6 +35,8 @@ const App = () => {
         return <ProjectsPage />;
       case "contact":
         return <ContactPage />;
+      case "calculator":
+        return <CalculatePage />;
       default:
         return <HomePage />;
     }

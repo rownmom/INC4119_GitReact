@@ -233,3 +233,42 @@
   padding: 1rem;
   margin-top: auto;
 }
+
+//계산기
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #2dffa0b5;
+}
+
+.calculator {
+  background: #ffa6a6;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.calculator > div:first-child {
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.calculator > div > div {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 15px;
+  border-radius: 20px;
+  background: #ffffff;
+}
+
+.ac-button {
+  background: #e92e2e;
+  color: white;
+}

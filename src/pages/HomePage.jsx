@@ -16,8 +16,8 @@ const HomePage = () => {
       description: "저에게 연락하는 방법입니다.",
     },
     {
-      title: "여러분이 원하는",
-      description: "항목을 새로 만들어 보세요.",
+      title: "계산기",
+      description: "2022112041 방윤지 계산기 기능입니다.",
     },
   ];
 

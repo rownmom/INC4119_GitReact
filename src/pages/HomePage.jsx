@@ -22,9 +22,15 @@ const HomePage = () => {
   ];
 
   return (
-    <div className="home-container">
-      <h2>환영합니다!</h2>
-      <p>이 웹사이트는 React를 사용하여 만든 개인 포트폴리오입니다.</p>
+    <div className="home-container"
+    style={{
+      textAlign: "center",
+      background: "yellow",
+      padding: "30px 20px",
+    }}
+    >
+      <h2 style={{ fontSize: "40px", color: "red" }}>환영합니다!</h2>
+      <p  style={{ fontSize: "20px", color: "green" }}>이 웹사이트는 React를 사용하여 만든 개인 포트폴리오입니다.</p>
       <div className="features">
         {features.map((feature, index) => (
           <FeatureCard

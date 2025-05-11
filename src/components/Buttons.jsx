@@ -18,7 +18,7 @@ const Buttons = ({ onButtonClick }) => {
                         <button
                             key={btn}
                             onClick={() => onButtonClick(btn)}
-                            className={btn === "AC" ? "ac-button" : ""} //AC 스타일 바꾸려고 추가함
+                            className={btn === "AC" ? "ac-button" : ""}
                         >
                             {btn} {}
                         </button>
